@@ -12,7 +12,7 @@ while(true)
         sleep_ms(1000);
         gpio_put(25,0);
         sleep_ms(1000);
-       
+       // turn on the LED for 1 second, then turn it off for 1 second, and repeat this indefinitely.
     }
 
     }
